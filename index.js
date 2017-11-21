@@ -51,7 +51,7 @@ app.get("/hello",
         
         if (claims['scp'].split(" ").indexOf("demo.read") >= 0) {
             // Service relies on the name claim.  
-            res.status(200).json({'name': claims['name']});
+            res.status(200).json({'name': claims['objectId']});
         } else {
             console.log("Invalid Scope, 403");
             res.status(403).json({'error': 'insufficient_scope'}); 
