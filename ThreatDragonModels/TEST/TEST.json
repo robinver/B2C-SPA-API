@@ -1,9 +1,17 @@
 {
   "summary": {
-    "title": "TEST"
+    "title": "TEST",
+    "description": "TEST12",
+    "owner": "robin"
   },
   "detail": {
     "contributors": [],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "TEST",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
